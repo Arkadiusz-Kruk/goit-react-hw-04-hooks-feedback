@@ -1,0 +1,19 @@
+.buttons__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons__item{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    background-color: orange;
+    box-shadow: 1px 1px 5px 1px rgba(26, 31, 50, 2);
+}
+
+.buttons__item:hover{
+    color: green;
+    background-color: orange;
+}
